@@ -1,0 +1,16 @@
+{
+  "name": "mcd-first-aid-kit",
+  "version": "1.0.0",
+  "description": "麦麦急救包 —— 说一句人话，把中午吃什么、券怎么用、积分换什么一次算清楚。基于麦当劳 MCP 的 WorkBuddy Skill。",
+  "keywords": ["mcdonalds", "mcp", "workbuddy", "skill", "agent"],
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/core.test.js",
+    "demo": "node scripts/maimai.js demo --text",
+    "demo:json": "node scripts/maimai.js demo"
+  }
+}

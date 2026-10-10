@@ -1,0 +1,28 @@
+# 真机凭证，千万别提交
+.env
+.env.*
+mcp.json
+.mcp.json
+mcp.local.json
+
+# 本地工作记录（会话记忆、临时数据），属于内部材料，不对外公开
+.workbuddy/
+.tmp/
+scratch/
+
+# 依赖
+node_modules/
+package-lock.json
+
+# 运行产物
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

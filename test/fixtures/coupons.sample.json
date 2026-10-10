@@ -1,0 +1,42 @@
+{
+  "_fixtureNote": "⚠️ 这份是**按官方字段结构构造**的示例数据，不是真实抓包。真实抓包时（2026-10-10）该账号卡包里一张券都没有，query-store-coupons 返回空数组 data:[]，所以拿不到真的券样本。字段名与含义严格照抄 MCP 返回结构里的说明：title / couponId / couponCode / tradeDateTime（有效期）/ products[].productName / products[].productCode。日期是写死的，只用于演示形态；测过期逻辑请看 test/core.test.js 里用相对日期现场构造的那几组。",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "data": [
+    {
+      "title": "巨无霸三件套立减5元",
+      "couponId": "CPN20261001001",
+      "couponCode": "8800000000001",
+      "tradeDateTime": "2026-10-13 23:59:59",
+      "products": [
+        { "productName": "巨无霸三件套", "productCode": "9900005466" }
+      ]
+    },
+    {
+      "title": "中薯条免费券",
+      "couponId": "CPN20261001002",
+      "couponCode": "8800000000002",
+      "tradeDateTime": "2026-10-31 23:59:59",
+      "products": [
+        { "productName": "中薯条", "productCode": "4810" }
+      ]
+    },
+    {
+      "title": "全场满 30 减 6",
+      "couponId": "CPN20261001003",
+      "couponCode": "8800000000003",
+      "tradeDateTime": "2026-11-30 23:59:59",
+      "products": []
+    },
+    {
+      "title": "圆筒冰淇淋买一送一",
+      "couponId": "CPN20261001004",
+      "couponCode": "8800000000004",
+      "tradeDateTime": "2026-10-06 23:59:59",
+      "products": [
+        { "productName": "圆筒冰淇淋", "productCode": "515837" }
+      ]
+    }
+  ]
+}

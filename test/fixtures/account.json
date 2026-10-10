@@ -1,0 +1,19 @@
+{
+  "_fixtureNote": "真实抓包数据。来源：MCP query-my-account，抓取时间 2026-10-10 21:46:52。原返回里的 accountId 已替换为占位值（不是真实账号标识），其余字段为原始数值。已确认不含 Token、手机号、姓名等任何凭证或个人信息。",
+  "success": true,
+  "code": 200,
+  "message": "请求成功",
+  "datetime": "2026-10-10 21:46:52",
+  "data": {
+    "availablePoint": "0",
+    "accountId": "00000000-0000-0000-0000-000000000000",
+    "accumulativePoint": "4005.6",
+    "currency": "麦享会积分",
+    "currentMouthExpirePoint": "0",
+    "expiredPoint": "3704.6",
+    "frozenPoint": "0",
+    "lastMouthExpirePoint": "0",
+    "nextMouthExpirePoint": "0",
+    "usedPoint": "301"
+  }
+}
